@@ -1,0 +1,10 @@
+{
+  "$schema":"./node_modules/wrangler/config-schema.json",
+  "name":"myai432",
+  "main":"worker.js",
+  "compatibility_date":"2026-09-16",
+  "assets":{"directory":"./public","binding":"ASSETS"},
+  "ai":{"binding":"AI"},
+  "d1_databases":[{"binding":"DB","database_name":"myai-db","database_id":"HIER_DEINE_DATABASE_ID_EINFUEGEN"}],
+  "vars":{"ADMIN_EMAIL":"HIER_DEINE_EMAIL_EINFUEGEN"}
+}
